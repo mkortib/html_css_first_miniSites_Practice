@@ -1,0 +1,95 @@
+body {
+   margin: 0px;
+}
+#wrraper {
+   width: 1000px;
+   margin: 0px auto; 
+   outline: 1px solid black;
+}
+#rsidebar, #lsidebar {
+   outline: 1px solid black;
+   height: 730px;
+   width: 200px;
+}
+#rsidebar {
+   float: right;
+}
+#lsidebar {
+   float: left;
+}
+#header {
+   outline: 1px solid black;
+   height: 200px;
+   position: relative;
+}
+
+.link {
+   font-weight: bold;
+   font-size: 19px;
+   margin-top: 0px;
+   position: absolute;
+   left: 200px;
+   top: 10px;
+}
+img {
+   width: 200px;
+   height: 170px;
+   margin-top: 5px;
+}
+#content {
+   margin: 0px 200px;
+   height: 730px;
+/*   outline: 1px solid black;*/
+   padding: 0px 20px;
+/*   padding-bottom: 10px;*/
+   
+}
+h1 {
+   margin-top: 0px;
+   margin-bottom: 10px;
+}
+#content p {
+   margin-top: 0px;
+}
+#footer {
+   height: 200px;
+/*   width: 200px;*/
+   outline: 1px solid black;
+}
+.foot {
+   margin-top: 0px;
+   text-align: center;
+   padding-top: 180px;
+   font-weight: bold;
+}
+.clearfix {
+   clear: both;
+}
+#menu {
+   width: 530px;
+   height: 30px;
+   border: 1px solid black;
+   position: absolute;
+   top: 40px;
+   left: 200px;
+/*   text-align: center;*/
+}
+   #menu li {
+      margin-top: 5px;
+      margin-right: 10px;
+      margin-left: 5px;
+      display: inline-block;
+   }
+   a:visited, a:link {
+      text-decoration: none;
+      color: blue;
+   }
+   a:hover, a.active {
+      text-decoration: underline;
+      color: red;
+   }
+   ul {
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+}
